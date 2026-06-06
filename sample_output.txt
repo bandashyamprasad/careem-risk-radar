@@ -1,0 +1,15 @@
+Overall Project Health: Amber
+
+Delivery Risks
+Risk	Severity	Reason
+Security review delay	High	UAT may proceed without required approval, impacting release readiness.
+Scope change for reporting dashboard	Medium	Additional development effort may impact timeline.
+Dependency Risks
+Risk	Severity	Reason
+Vendor integration testing delay	High	Critical path dependency delayed by 2 weeks.
+Resource Risks
+Risk	Severity	Reason
+Backend engineers diverted to production support	Medium	Reduced development capacity may slow completion.
+Third-Party Risks
+Risk	Severity	Reason
+Vendor testing schedule slip	High	External dependency outside project team's direct control.
