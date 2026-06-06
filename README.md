@@ -1,23 +1,54 @@
 # Careem Risk Radar
 
+## Overview
+
+Risk Radar is an AI-assisted workflow designed to help Program Managers identify risks, dependencies, blockers, and resource constraints before they impact delivery timelines.
+
+The solution analyzes project updates from multiple stakeholders and generates a structured risk assessment with recommended actions and an executive summary.
+
 ## Problem
 
-Program Managers spend significant time reviewing updates from multiple teams, identifying risks, tracking dependencies, and communicating project health.
+Large cross-functional programs often involve:
 
-When projects involve external vendors, APIs, and multiple stakeholders, blockers can be missed until timelines are already impacted.
+* Multiple engineering teams
+* External vendors and API partners
+* Resource constraints
+* Competing priorities
+* Complex delivery dependencies
+
+Program Managers spend significant time reviewing updates and identifying potential risks manually.
 
 ## Solution
 
-Risk Radar is an AI-assisted workflow that analyzes project updates and automatically identifies:
+Risk Radar uses a structured AI prompt to:
 
-- Delivery risks
-- Dependency risks
-- Resource constraints
-- Third-party integration blockers
-- Recommended actions
+1. Analyze project updates
+2. Detect delivery risks
+3. Identify dependency and third-party blockers
+4. Assess severity levels
+5. Recommend mitigation actions
+6. Generate an executive-ready status summary
 
-The goal is to help Program Managers detect issues earlier and improve execution visibility.
+## Repository Structure
+
+README.md – Project overview
+
+risk_radar_prompt.txt – AI workflow prompt
+
+sample_updates.txt – Sample project updates
+
+sample_output.txt – Example AI-generated risk assessment
+
+architecture.md – Workflow architecture
+
+## Example Use Cases
+
+* Program status reviews
+* Release readiness assessments
+* Vendor dependency tracking
+* Cross-functional project monitoring
+* Executive reporting
 
 ## Status
 
-Work in Progress
+Prototype created as part of the Careem AI Challenge.
